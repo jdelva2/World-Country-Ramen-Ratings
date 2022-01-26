@@ -2,14 +2,14 @@
 
 
 ## Analysis of Ramen Ratings in different countries.
-The **scope** of this project involves using Python libraries and packages for: data pre-processing, data cleaning/wrangling and data visualizations.
-The **purpose** of this project was to practice automation skills to iterate and create multiple graphs.
-The **impact** this project has can be seen as a guide or referenece to beginner data analysts/ programmers who wish to speed up their production through automation. In a business perspective, This is a great flexible way to automate and allows quick visuals to see the count or average of certain features within multiple classes. i.e displaying average ratings for multiple brand for multiple countries.
+- The **scope** of this project involves using Python libraries and packages for: data pre-processing, data cleaning/wrangling and data visualizations.
+- The **purpose** of this project was to practice automation skills to iterate and create multiple graphs.
+- The **impact** this project has can be seen as a guide or referenece to beginner data analysts/ programmers who wish to speed up their production through automation. In a business perspective, This is a great flexible way to automate and allows quick visuals to see the count or average of certain features within multiple classes. i.e displaying average ratings for multiple brand for multiple countries.
 
 ## Average Rating for Japan's Cup Ramen
   Here we can see some terrific results! At first glance we can see Maruchan brand is not a popular choice in Japan. Seven Eleven cup ramen and Nissin cup ramen seem to be the superior two!
   However, why is this? Lets explore a little more.
-![]()
+![](https://raw.githubusercontent.com/jdelva2/World-Country-Ramen-Ratings/main/Graphs%20%26%20Results/Japan_cup_barplot.png)
 ## Japan Average Rating Value Count Percentage 
   Using Pandas groupby and count function, we can count the total values for each brand rating. We can see that Nissin makes up 65% (32 ratings) compare to Seven Eleven (1 rating).
   This means there was only 1 really good rating for Seven Eleven but Nissin has 32 ratings and is 2nd highest. In a business setting where a shop owner wants to sell the most popular cup ramen. Although it may be tempting to sell Seven Eleven ramen, they might want to choose to sell Nissin since more people tend to rate that the highest. A bigger sample size is a great contribution for this decision making.
